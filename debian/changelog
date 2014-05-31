@@ -1,0 +1,128 @@
+xdgmime (0.0.12-2) unstable; urgency=low
+
+  * add requires info to spec file
+  * Git: slp/pkgs/x/xdgmime
+  * Tag: xdgmime_0.0.12-2
+
+ -- Hyungdeuk Kim <hd3.kim@samsung.com>  Tue, 27 Mar 2012 17:32:14 +0900
+
+xdgmime (0.0.12-1) unstable; urgency=low
+
+  * upload spec file
+  * Git: slp/pkgs/x/xdgmime
+  * Tag: xdgmime_0.0.12-1
+
+ -- Hyungdeuk Kim <hd3.kim@samsung.com>  Fri, 16 Mar 2012 02:32:14 +0900
+
+xdgmime (0.0.12-0) unstable; urgency=low
+
+  * Remove test-mime-data.c, text-mime.c due to license issue
+  * Add boilerplate to perf.h, xdgmime_test.c
+  * Git: 165.213.180.234:slp/pkgs/x/xdgmime
+  * Tag: xdgmime_0.0.12-0
+
+ -- Seokkyu Jang <seokkyu.jang@samsung.com>  Mon, 22 Aug 2011 11:32:14 +0900
+
+xdgmime (0.0.11-0) unstable; urgency=low
+
+  * Add boilerplate & remove xdgmime_api.h
+  * Git: 165.213.180.234:slp/pkgs/x/xdgmime
+  * Tag: xdgmime_0.0.11-0
+
+ -- Seokkyu Jang <seokkyu.jang@samsung.com>  Tue, 09 Aug 2011 15:52:05 +0900
+
+xdgmime (0.0.10-1) unstable; urgency=low
+
+  * Re-versioning
+  * Git: 165.213.180.234:/slp/pkgs/x/xdgmime
+  * Tag: xdgmime_0.0.10-1
+
+ -- Youmin Ha <youmin.ha@samsung.com>  Tue, 14 Dec 2010 15:43:33 +0900
+
+xdgmime (0.0.10) unstable; urgency=low
+
+  * Fix memory initialization bug
+  * Git: 165.213.180.234:/slp/pkgs/x/xdgmime
+  * Tag: xdgmime_0.0.10
+
+ -- Youmin Ha <youmin.ha@samsung.com>  Tue, 14 Dec 2010 15:29:47 +0900
+
+xdgmime (0.0.9-1) unstable; urgency=low
+
+  * reupload
+  * Git: 165.213.180.234:/slp/pkgs/x/xdgmime
+  * Tag: xdgmime_0.0.9-1
+
+ -- Youmin Ha <youmin.ha@samsung.com>  Sat, 11 Dec 2010 16:27:44 +0900
+
+xdgmime (0.0.9) unstable; urgency=low
+
+  * NULL check before strcmp() functions in xdgmimeglobs2.c
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.9
+
+ -- Youmin Ha <youmin.ha@samsung.com>  Sat, 11 Dec 2010 15:56:05 +0900
+
+xdgmime (0.0.8) unstable; urgency=low
+
+  * set new function to API
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.8
+
+ -- Youmin Ha <youmin.ha@samsung.com>  Fri, 29 Oct 2010 14:22:20 +0900
+
+xdgmime (0.0.7) unstable; urgency=low
+
+  * Add API: xdg_mime_get_file_names_from_mime_type() 
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.7
+
+ -- Youmin Ha <youmin.ha@samsung.com>  Thu, 28 Oct 2010 11:25:23 +0900
+
+xdgmime (0.0.6) unstable; urgency=low
+
+  * API - xdg_mime_unalias_mime_type 
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.6
+
+ -- Kunhoon Baik <knhoon.baik@samsung.com>  Mon, 25 Oct 2010 11:54:06 +0900
+
+xdgmime (0.0.5) unstable; urgency=low
+
+  * build error fix 
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.5
+
+ -- Kunhoon Baik <knhoon.baik@samsung.com>  Wed, 20 Oct 2010 15:52:53 +0900
+
+xdgmime (0.0.4) unstable; urgency=low
+
+  * Shared Library versioning 
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.4
+
+ -- Kunhoon Baik <knhoon.baik@samsung.com>  Wed, 20 Oct 2010 14:47:28 +0900
+
+xdgmime (0.0.3) unstable; urgency=low
+
+  * release icon API  
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.3
+
+ -- Kunhoon Baik <knhoon.baik@samsung.com>  Thu, 09 Sep 2010 10:34:11 +0900
+
+xdgmime (0.0.2) unstable; urgency=low
+
+  * change API prefix 
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.2
+
+ -- Kunhoon Baik <knhoon.baik@samsung.com>  Mon, 09 Aug 2010 11:35:21 +0900
+
+xdgmime (0.0.1) unstable; urgency=low
+
+  * Initial release. 
+  * Git: 165.213.180.234:/git/slp/pkgs/xdgmime
+  * Tag: xdgmime_0.0.1
+
+ -- Kunhoon Baik <knhoon.baik@samsung.com>  Fri, 06 Aug 2010 19:32:55 +0900
