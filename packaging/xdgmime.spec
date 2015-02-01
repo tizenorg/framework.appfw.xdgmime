@@ -51,3 +51,4 @@ chmod 644 /usr/lib/libxdgmime.so.1.1.0
 /usr/include/xdgmime.h
 /usr/lib/libxdgmime.so
 /usr/lib/pkgconfig/xdgmime.pc
+
