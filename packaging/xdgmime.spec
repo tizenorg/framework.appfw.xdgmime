@@ -1,16 +1,16 @@
 Name:       xdgmime
 Summary:    Pkg xdgmime
 Version:    0.0.12
-Release:    1
+Release:    4
 Group:      TO_BE/FILLED_IN
-License:    LGPLv2, AFLv2
+License:    AFL-2.0 and LGPL-2.1+
 Source0:    xdgmime-%{version}.tar.gz
 Requires(post): /sbin/ldconfig, /bin/chown, /bin/chmod
 Requires(postun): /sbin/ldconfig
 BuildRequires:  cmake
 
 %description
-Package xdgmime 
+Package xdgmime
 
 %package devel
 Summary:    Pkg xdgmime (devel)
@@ -31,9 +31,10 @@ make %{?jobs:-j%jobs}
 %install
 rm -rf %{buildroot}
 %make_install
+mkdir -p %{buildroot}/usr/share/license
+install COPYING %{buildroot}/usr/share/license/%{name}
 
 %post
-chown root:root /usr/lib/libxdgmime.so.1.1.0
 chmod 644 /usr/lib/libxdgmime.so.1.1.0
 /sbin/ldconfig
 
@@ -42,9 +43,12 @@ chmod 644 /usr/lib/libxdgmime.so.1.1.0
 %files
 %defattr(-,root,root,-)
 /usr/lib/libxdgmime.so.*
+/usr/share/license/%{name}
+%manifest xdgmime.manifest
 
 %files devel
 %defattr(-,root,root,-)
 /usr/include/xdgmime.h
 /usr/lib/libxdgmime.so
 /usr/lib/pkgconfig/xdgmime.pc
+
